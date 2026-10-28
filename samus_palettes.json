@@ -1,0 +1,627 @@
+[
+    {
+        "name": "SamusPal_Power_Normal",
+        "addr": "0x9B9400",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_Charging0",
+        "addr": "0x9B9820",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_Charging1",
+        "addr": "0x9B9840",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_Charging2",
+        "addr": "0x9B9860",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_Charging3",
+        "addr": "0x9B9880",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_DyingSuit4",
+        "addr": "0x9B98A0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_DyingSuit5",
+        "addr": "0x9B98C0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_DyingSuit6",
+        "addr": "0x9B98E0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_DyingSuit7",
+        "addr": "0x9B9900",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_SpeedBoosting0",
+        "addr": "0x9B9B20",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_SpeedBoosting1",
+        "addr": "0x9B9B40",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_SpeedBoosting2",
+        "addr": "0x9B9B60",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_SpeedBoosting3",
+        "addr": "0x9B9B80",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_SpeedBoosterShine0",
+        "addr": "0x9B9BA0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_SpeedBoosterShine1",
+        "addr": "0x9B9BC0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_SpeedBoosterShine2",
+        "addr": "0x9B9BE0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_SpeedBoosterShine3",
+        "addr": "0x9B9C00",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_Shinespark0",
+        "addr": "0x9B9C20",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_Shinespark1",
+        "addr": "0x9B9C40",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_Shinespark2",
+        "addr": "0x9B9C60",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_Shinespark3",
+        "addr": "0x9B9C80",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_ScrewAttack0",
+        "addr": "0x9B9CA0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_ScrewAttack1",
+        "addr": "0x9B9CC0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_ScrewAttack2",
+        "addr": "0x9B9CE0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_ScrewAttack3",
+        "addr": "0x9B9D00",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_Heat0",
+        "addr": "0x8DE466",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_Heat1",
+        "addr": "0x8DE488",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_Heat2",
+        "addr": "0x8DE4CC",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_Heat3",
+        "addr": "0x8DE510",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Power_Heat4",
+        "addr": "0x8DE554",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_Normal",
+        "addr": "0x9B9520",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_Charging0",
+        "addr": "0x9B9920",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_Charging1",
+        "addr": "0x9B9940",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_Charging2",
+        "addr": "0x9B9960",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_Charging3",
+        "addr": "0x9B9980",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_DyingSuit4",
+        "addr": "0x9B99A0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_DyingSuit5",
+        "addr": "0x9B99C0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_DyingSuit6",
+        "addr": "0x9B99E0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_DyingSuit7",
+        "addr": "0x9B9A00",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_SpeedBoosting0",
+        "addr": "0x9B9D20",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_SpeedBoosting1",
+        "addr": "0x9B9D40",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_SpeedBoosting2",
+        "addr": "0x9B9D60",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_SpeedBoosting3",
+        "addr": "0x9B9D80",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_SpeedBoosterShine0",
+        "addr": "0x9B9DA0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_SpeedBoosterShine1",
+        "addr": "0x9B9DC0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_SpeedBoosterShine2",
+        "addr": "0x9B9DE0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_SpeedBoosterShine3",
+        "addr": "0x9B9E00",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_Shinespark0",
+        "addr": "0x9B9E20",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_Shinespark1",
+        "addr": "0x9B9E40",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_Shinespark2",
+        "addr": "0x9B9E60",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_Shinespark3",
+        "addr": "0x9B9E80",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_ScrewAttack0",
+        "addr": "0x9B9EA0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_ScrewAttack1",
+        "addr": "0x9B9EC0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_ScrewAttack2",
+        "addr": "0x9B9EE0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_ScrewAttack3",
+        "addr": "0x9B9F00",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_Heat0",
+        "addr": "0x8DE692",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_Heat1",
+        "addr": "0x8DE6B4",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_Heat2",
+        "addr": "0x8DE6F8",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_Heat3",
+        "addr": "0x8DE73C",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Varia_Heat4",
+        "addr": "0x8DE780",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_Normal",
+        "addr": "0x9B9800",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_Charging0",
+        "addr": "0x9B9A20",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_Charging1",
+        "addr": "0x9B9A40",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_Charging2",
+        "addr": "0x9B9A60",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_Charging3",
+        "addr": "0x9B9A80",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_DyingSuit4",
+        "addr": "0x9B9AA0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_DyingSuit5",
+        "addr": "0x9B9AC0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_DyingSuit6",
+        "addr": "0x9B9AE0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_DyingSuit7",
+        "addr": "0x9B9B00",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_SpeedBoosting0",
+        "addr": "0x9B9F20",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_SpeedBoosting1",
+        "addr": "0x9B9F40",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_SpeedBoosting2",
+        "addr": "0x9B9F60",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_SpeedBoosting3",
+        "addr": "0x9B9F80",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_SpeedBoosterShine0",
+        "addr": "0x9B9FA0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_SpeedBoosterShine1",
+        "addr": "0x9B9FC0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_SpeedBoosterShine2",
+        "addr": "0x9B9FE0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_SpeedBoosterShine3",
+        "addr": "0x9BA000",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_Shinespark0",
+        "addr": "0x9BA020",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_Shinespark1",
+        "addr": "0x9BA040",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_Shinespark2",
+        "addr": "0x9BA060",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_Shinespark3",
+        "addr": "0x9BA080",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_ScrewAttack0",
+        "addr": "0x9BA0A0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_ScrewAttack1",
+        "addr": "0x9BA0C0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_ScrewAttack2",
+        "addr": "0x9BA0E0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_ScrewAttack3",
+        "addr": "0x9BA100",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_Heat0",
+        "addr": "0x8DE8BE",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_Heat1",
+        "addr": "0x8DE8E0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_Heat2",
+        "addr": "0x8DE924",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_Heat3",
+        "addr": "0x8DE968",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Gravity_Heat4",
+        "addr": "0x8DE9AC",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_HyperBeam0",
+        "addr": "0x9BA240",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_HyperBeam1",
+        "addr": "0x9BA260",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_HyperBeam2",
+        "addr": "0x9BA280",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_HyperBeam3",
+        "addr": "0x9BA2A0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_HyperBeam4",
+        "addr": "0x9BA2C0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_HyperBeam5",
+        "addr": "0x9BA2E0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_HyperBeam6",
+        "addr": "0x9BA300",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_HyperBeam7",
+        "addr": "0x9BA320",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_HyperBeam8",
+        "addr": "0x9BA340",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_HyperBeam9",
+        "addr": "0x9BA360",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Hurt",
+        "addr": "0x9BA380",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_IntroGreyscale",
+        "addr": "0x9BA3A0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_Visor",
+        "addr": "0x9BA3C0",
+        "size": 6
+    },
+    {
+        "name": "SamusPal_CrystalFlashBody0",
+        "addr": "0x9B96C0",
+        "size": 10
+    },
+    {
+        "name": "SamusPal_CrystalFlashBody1",
+        "addr": "0x9B96E0",
+        "size": 10
+    },
+    {
+        "name": "SamusPal_CrystalFlashBody2",
+        "addr": "0x9B9700",
+        "size": 10
+    },
+    {
+        "name": "SamusPal_CrystalFlashBody3",
+        "addr": "0x9B9720",
+        "size": 10
+    },
+    {
+        "name": "SamusPal_CrystalFlashBody4",
+        "addr": "0x9B9740",
+        "size": 10
+    },
+    {
+        "name": "SamusPal_CrystalFlashBody5",
+        "addr": "0x9B9760",
+        "size": 10
+    },
+    {
+        "name": "SamusPal_CrystalFlashBubble0",
+        "addr": "0x9B96D4",
+        "size": 6
+    },
+    {
+        "name": "SamusPal_CrystalFlashBubble1",
+        "addr": "0x9B96F4",
+        "size": 6
+    },
+    {
+        "name": "SamusPal_CrystalFlashBubble2",
+        "addr": "0x9B9714",
+        "size": 6
+    },
+    {
+        "name": "SamusPal_CrystalFlashBubble3",
+        "addr": "0x9B9734",
+        "size": 6
+    },
+    {
+        "name": "SamusPal_CrystalFlashBubble4",
+        "addr": "0x9B9754",
+        "size": 6
+    },
+    {
+        "name": "SamusPal_CrystalFlashBubble5",
+        "addr": "0x9B9774",
+        "size": 6
+    },
+    {
+        "name": "SamusPal_DyingSuitFlash",
+        "addr": "0x9B9420",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_DyingBody0",
+        "addr": "0x9BA120",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_DyingBody1",
+        "addr": "0x9BA140",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_DyingBody2",
+        "addr": "0x9BA160",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_DyingBody3",
+        "addr": "0x9BA180",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_DyingBody4",
+        "addr": "0x9BA1A0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_DyingBody5",
+        "addr": "0x9BA1C0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_DyingBody6",
+        "addr": "0x9BA1E0",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_DyingBody7",
+        "addr": "0x9BA200",
+        "size": 16
+    },
+    {
+        "name": "SamusPal_DyingAllWhite",
+        "addr": "0x9BA220",
+        "size": 16
+    }
+]

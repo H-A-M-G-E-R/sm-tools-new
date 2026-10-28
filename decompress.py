@@ -1,4 +1,4 @@
-from src.romhandler import RomHandlerParent
+from romhandler import RomHandlerParent
 
 ''' Based on https://patrickjohnston.org/ASM/ROM%20data/Super%20Metroid/decompress.py '''
 def decompress(rom, start):
