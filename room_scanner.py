@@ -258,6 +258,17 @@ if __name__ == '__main__':
                 break
         data_ranges.append((rom.convert_to_pc_address(0x830000 | p_fx), rom.convert_to_pc_address(cur_addr)))
 
+    for p_enemy_set in sorted(enemy_set_pointers):
+        cur_addr = 0xB40000 | p_enemy_set
+        while True:
+            enemy_id = rom.read_from_snes_address(cur_addr, 2)
+            cur_addr += 2
+            if enemy_id == 0xFFFF:
+                break
+            else:
+                cur_addr += 2
+        data_ranges.append((rom.convert_to_pc_address(0xB40000 | p_enemy_set), rom.convert_to_pc_address(cur_addr)))
+
     for (p_scroll, scroll_size) in sorted(scroll_pointers):
         data_ranges.append((rom.convert_to_pc_address(0x8F0000 | p_scroll), rom.convert_to_pc_address((0x8F0000 | p_scroll) + scroll_size)))
 

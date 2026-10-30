@@ -5,7 +5,7 @@ if __name__ == '__main__':
     MAX_GAP = 3
     sm = RomHandlerParent('sm.sfc')
     sj = RomHandlerParent('Super Junkoid DX 2.3.sfc')
-    exclude_csv = csv.reader(open('exclude.csv'))
+    exclude_csv = csv.reader(open('sjdx_2.3_exclude.csv'))
     exclude = [False] * 0x400000
     for exclude_range in exclude_csv:
         if len(exclude_range) == 2:
