@@ -1,6 +1,7 @@
 from romhandler import RomHandlerParent
 
 ''' Based on https://patrickjohnston.org/ASM/ROM%20data/Super%20Metroid/decompress.py '''
+# Returns (decompressed data, compressed data size)
 def decompress(rom, start):
     curr_addr = rom.convert_to_pc_address(start) # for bankcross
     decompressed = bytearray()
@@ -56,4 +57,4 @@ def decompress(rom, start):
             for i in range(offset, offset + size):
                 decompressed.append(decompressed[i] ^ 0xFF)
 
-    return decompressed
+    return (decompressed, curr_addr - rom.convert_to_pc_address(start))

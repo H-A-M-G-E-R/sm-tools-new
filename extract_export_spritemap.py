@@ -26,7 +26,7 @@ def encode_spritemap_entry(entry):
 
 def extract_generic(rom, gfx_addr, gfx_size, gfx_offset, pal_addr, pal_count, pal_offset, spritemap_range, ext_hitbox_range, ext_spritemap_range, name, compressed_gfx=False):
     if compressed_gfx:
-        gfx = decompress(rom, gfx_addr) # ignore size when gfx is compressed
+        gfx = decompress(rom, gfx_addr)[0] # ignore size when gfx is compressed
     else:
         gfx = rom.bulk_read_from_snes_address(gfx_addr, gfx_size*32)
 
